@@ -47,7 +47,7 @@ High personal income does not guarantee repayment if the loan purpose is inheren
 ## 5. Strategic Recommendations
 1. **Mitigate "Unknown" Risk:** Mandate advanced eKYC or integrate Alternative Data (social footprint, utility bills) for applicants lacking employment history. Alternatively, apply an "Information Risk Premium" to their interest rates.
 2. **Tighten Small Business Credit Limits:** Shift from lump-sum funding to milestone-based disbursements for small business loans to strictly monitor actual capital utilization and limit exposure.
-3. ---
+ ---
 <br>
 
 
