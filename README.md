@@ -16,7 +16,7 @@ This project builds an **End-to-End Data Pipeline** to analyze a portfolio of **
 ## 3. Interactive Dashboard
 Portfolio Overview: **50K Loans**, Total Funded Amount **$720M**, Overall Default Rate **20.23%**.
 
-![Full Dashboard](Credit_Risk_Analysis/images/full_dash.jpg)
+![Full Dashboard](Credit_Risk_Analysis/images/ful_dash.jpg)
 
 ## 4. Key Insights & Storytelling
 
@@ -65,7 +65,7 @@ Quy trình được thiết kế tối ưu để xử lý tập dữ liệu lớ
 ## 3. Hệ thống Báo cáo Trực quan (Interactive Dashboard)
 Tổng quan danh mục: **50K khoản vay**, Tổng dư nợ **720 Triệu USD**, Tỷ lệ nợ xấu toàn danh mục ở mức **20.23%**.
 
-![Full Dashboard](Credit_Risk_Analysis/images/full_dash.jpg)
+![Full Dashboard](Credit_Risk_Analysis/images/ful_dash.jpg)
 
 ## 4. Phân tích Chuyên sâu (Key Insights & Storytelling)
 
