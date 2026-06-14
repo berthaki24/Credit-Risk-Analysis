@@ -16,14 +16,14 @@ This project builds an **End-to-End Data Pipeline** to analyze a portfolio of **
 ## 3. Interactive Dashboard
 Portfolio Overview: **50K Loans**, Total Funded Amount **$720M**, Overall Default Rate **20.23%**.
 
-![Full Dashboard](images/full_dash.jpg)
+![Full Dashboard](Credit_Risk_Analysis/images/full_dash.jpg)
 
 ## 4. Key Insights & Storytelling
 
 ### 📌 Insight 1: The Effectiveness of Risk-Based Pricing
 Unlike traditional banks that outright reject subprime applicants, FinTech absorbs the risk but heavily compensates through interest rate adjustments.
 
-![Grade Risk](images/chart1.jpg)
+![Grade Risk](Credit_Risk_Analysis/images/chart1.jpg)
 
 * **Finding:** A perfect positive correlation exists between Credit Grade and Default Rate. Grade A borrowers default at only **6.52%**, whereas Grade G skyrockets to **51.27%**.
 * **Business Impact:** To offset the reality that 1 in 2 Grade G borrowers will default, the algorithm correctly assigns the highest interest rate ceiling. This proves the internal credit scoring model is functioning accurately as a pricing tool.
@@ -31,7 +31,7 @@ Unlike traditional banks that outright reject subprime applicants, FinTech absor
 ### 📌 Insight 2: Data Blind Spots and Adverse Selection
 Information asymmetry is the biggest threat in unsecured lending.
 
-![Tenure Risk](images/chart2.jpg)
+![Tenure Risk](Credit_Risk_Analysis/images/chart2.jpg)
 
 * **Finding:** Borrowers with undisclosed/unknown employment lengths (-1) exhibit a drastically higher default rate of **27.43%**, far exceeding the 19-20% average of those with verified tenure.
 * **Business Impact:** Missing data here is a behavioral red flag, not just a technical error. Financially unstable applicants actively withhold information—a classic case of Adverse Selection.
@@ -39,7 +39,7 @@ Information asymmetry is the biggest threat in unsecured lending.
 ### 📌 Insight 3: The Toxic Segment - Small Business Loans
 High personal income does not guarantee repayment if the loan purpose is inherently volatile.
 
-![Purpose Risk](images/chart3.jpg)
+![Purpose Risk](Credit_Risk_Analysis/images/chart3.jpg)
 
 * **Finding:** "Small Business" loans are the leading driver of defaults across all income brackets (ranging from 26.51% to nearly **30%**). Surprisingly, even high-income borrowers (>85k) seeking small business loans have a higher default rate (29.88%) than low-income borrowers taking out personal loans.
 * **Business Impact:** The cash flow of micro-businesses is highly susceptible to macro-economic shocks, making it the most toxic asset class in an unsecured lending portfolio.
@@ -65,14 +65,14 @@ Quy trình được thiết kế tối ưu để xử lý tập dữ liệu lớ
 ## 3. Hệ thống Báo cáo Trực quan (Interactive Dashboard)
 Tổng quan danh mục: **50K khoản vay**, Tổng dư nợ **720 Triệu USD**, Tỷ lệ nợ xấu toàn danh mục ở mức **20.23%**.
 
-![Full Dashboard](images/full_dash.jpg)
+![Full Dashboard](Credit_Risk_Analysis/images/full_dash.jpg)
 
 ## 4. Phân tích Chuyên sâu (Key Insights & Storytelling)
 
 ### 📌 Insight 1: Hiệu quả của cơ chế "Định giá theo rủi ro" (Risk-Based Pricing)
 Không giống như NHTM truyền thống thường từ chối thẳng thừng hồ sơ dưới chuẩn, FinTech chấp nhận rủi ro nhưng bù đắp bằng lãi suất.
 
-![Grade Risk](images/chart1.jpg)
+![Grade Risk](Credit_Risk_Analysis/images/chart1.jpg)
 
 * **Phân tích:** Biểu đồ thể hiện sự tương quan dương hoàn hảo giữa Hạng tín dụng (Grade) và Tỷ lệ nợ xấu. Nhóm rủi ro thấp (Grade A) có tỷ lệ nợ xấu chỉ **6.52%**, trong khi nhóm đáy (Grade G) vọt lên tới **51.27%**. 
 * **Business Impact:** Để bù đắp việc "cứ 2 người vay thì 1 người quỵt nợ" ở nhóm G, hệ thống đã tự động áp mức lãi suất trần rất cao. Điều này chứng minh thuật toán chấm điểm tín dụng nội bộ của nền tảng đang hoạt động đúng hướng.
@@ -80,7 +80,7 @@ Không giống như NHTM truyền thống thường từ chối thẳng thừng 
 ### 📌 Insight 2: "Điểm mù" dữ liệu và Hành vi Lựa chọn nghịch (Adverse Selection)
 Bất đối xứng thông tin là kẻ thù lớn nhất của tín dụng không tài sản đảm bảo.
 
-![Tenure Risk](images/chart2.jpg)
+![Tenure Risk](Credit_Risk_Analysis/images/chart2.jpg)
 
 * **Phát hiện:** Nhóm khách hàng không xác định được thâm niên làm việc (Unknown / -1) có tỷ lệ nợ xấu cao đột biến lên tới **27.43%**, vượt xa mức trung bình 19-20% của các nhóm có khai báo thâm niên.
 * **Business Impact:** Việc thiếu dữ liệu không đơn thuần là lỗi hệ thống. Khách hàng có tài chính bất ổn thường có xu hướng chủ động che giấu thông tin. Đây là tín hiệu cảnh báo đỏ cho hành vi lựa chọn nghịch.
@@ -88,7 +88,7 @@ Bất đối xứng thông tin là kẻ thù lớn nhất của tín dụng khô
 ### 📌 Insight 3: Phân khúc độc hại - Bức tranh đằng sau "Kinh doanh nhỏ"
 Thu nhập cá nhân cao không đồng nghĩa với khả năng trả nợ tốt nếu mục đích vay mang tính rủi ro kinh doanh.
 
-![Purpose Risk](images/chart3.jpg)
+![Purpose Risk](Credit_Risk_Analysis/images/chart3.jpg)
 
 * **Phát hiện:** Vay để "Kinh doanh nhỏ" (Small Business) là mục đích dẫn đầu về tỷ lệ vỡ nợ ở mọi phân khúc thu nhập (dao động từ 26.51% đến xấp xỉ **30%**). Đáng chú ý, ngay cả nhóm có thu nhập cao (>85k) đi vay kinh doanh nhỏ cũng có tỷ lệ nợ xấu (29.88%) cao hơn hẳn nhóm thu nhập thấp đi vay tiêu dùng.
 * **Business Impact:** Dòng tiền kinh doanh nhỏ lẻ rất dễ đứt gãy trước các biến động vĩ mô, khiến nó trở thành loại tài sản "độc hại" nhất trong danh mục cho vay tín chấp.
